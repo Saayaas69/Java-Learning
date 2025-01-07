@@ -1,5 +1,7 @@
 package Assignment;
 
+//A static variable statictotalStudents to track the total number of students. (attributes, constructor file)
+
 public class Student {
   // attributes
   public static int statictotalStudents = 0;

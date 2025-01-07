@@ -1,4 +1,5 @@
 package Assignment;
+// A static variable statictotalStudents to track the total number of students. (main file)
 
 public class StudentFac {
   public static void main(String[] args) {
