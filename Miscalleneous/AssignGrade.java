@@ -3,20 +3,18 @@ package Miscalleneous;
 public class AssignGrade {
   public static void main(String[] args) {
 
-    int grade = 69;
+    int grade = 79;
 
     if (grade >= 90 && grade <= 100) {
-      System.out.println("Its Grade A");
-    } else if (80 <= grade && grade >= 89) {
-      System.out.println("Its Grade B");
-    } else if (70 <= grade && grade >= 79) {
-      System.out.println("Its Grade C");
+      System.out.println("It's Grade A+");
+    } else if (grade >= 80 && grade <= 89) {
+      System.out.println("It's Grade A");
+    } else if (grade >= 70 && grade <= 79) {
+      System.out.println("It's Grade B+");
     } else if (grade < 70) {
-      System.out.println("Its Grade D");
-
+      System.out.println("It's Grade C");
     } else {
-      System.out.println("its invalid");
+      System.out.println("It's invalid");
     }
-
   }
 }
