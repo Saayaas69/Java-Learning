@@ -1,4 +1,4 @@
-package OOP;
+package methodsFunction;
 
 public class ThreeIntegers {
   public static void main(String[] args) {

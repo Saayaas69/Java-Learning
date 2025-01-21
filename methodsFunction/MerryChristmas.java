@@ -1,4 +1,4 @@
-package OOP;
+package methodsFunction;
 
 public class MerryChristmas {
   public static void main(String[] args) {
