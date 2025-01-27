@@ -35,4 +35,12 @@ public class Car extends Vehicle { // inheritance property # extends
     System.out.println("Car's seats are nos.:" + seats);
   }
 
+  // overriding polymorphism
+
+  public void displayDetails() {
+    System.out.println("Type of vehicle:" + make);
+    System.out.println("Model of Vehicle:" + model);
+    System.out.println("Vehicle is made in:" + year);
+  }
+
 }
