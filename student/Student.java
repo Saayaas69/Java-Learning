@@ -29,11 +29,16 @@ public class Student {
 
   public void displayDetails() {
     System.out.println("All the details");
+    System.out.println("Student Details is created:");
+    System.out.println("Student ID:" + studentId);
+    System.out.println("Student Name:" + name);
+    System.out.println("Student Age:" + age);
+    System.out.println("Student Grade:" + grade);
   }
 
   public void updateGrade(double newGrade) {
-    newGrade = grade;
-    System.out.println("New grade");
+    grade = newGrade;
+    System.out.println("New grade:" + grade);
   }
 
   public void isPassing() {
