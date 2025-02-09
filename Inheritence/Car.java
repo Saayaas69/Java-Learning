@@ -17,6 +17,8 @@ public class Car extends Vehicle { // inheritance property # extends
   public Car(String make, String model, int year, int numberOfDoors, String engine, String seats, int mileage) {
     super(make, model, year);
     this.numberOfDoors = numberOfDoors;
+
+    // extra
     this.engine = engine;
     this.seats = seats;
     this.mileage = mileage;
@@ -32,7 +34,7 @@ public class Car extends Vehicle { // inheritance property # extends
   }
 
   public void seats() {
-    System.out.println("Car's seats are nos.:" + seats);
+    System.out.println("Number of car seats are:" + seats);
   }
 
   // overriding polymorphism
