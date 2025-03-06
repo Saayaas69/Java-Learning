@@ -19,5 +19,4 @@ public class OnlineOrder extends Order {
     setAmount(getAmount() + deliveryCharge );
     System.out.println("Total Amount Rs.:" + getAmount());
   }
-
 }

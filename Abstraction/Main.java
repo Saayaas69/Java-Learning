@@ -17,7 +17,7 @@ public class Main {
     onlineOrder.calculateTotal();
     System.out.println();
 
-    // for store pick up order
+    // for store pickup order
     System.out.println();
     storePickup.displayOrderDetails();
     System.out.println();

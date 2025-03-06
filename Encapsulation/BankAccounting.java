@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class BankAccountmain {
+public class BankAccounting {
   public static void main(String[] args) {
     // creating object
     BankAccount saayaas = new BankAccount("Saayaas", 100000, "696969");
